@@ -86,7 +86,8 @@ Write commit messages so they could be sent to the Linux kernel as well:
 ### Evidence
 
 The maintainer can't test every wheel. Each change that depends on hardware
-behavior needs evidence that can be checked later, stored in `docs/`:
+behavior needs evidence that can be checked later, stored in `docs/`. The
+layout and rules are described in [AGENTS.md](./AGENTS.md) in this directory:
 
 + For a new wheel: USB IDs, `bcdDevice`, firmware version, the report
   descriptor (from Linux, and from Windows if the Windows driver replaces it),
